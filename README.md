@@ -15,6 +15,16 @@ To test the network scanner:
 
 **Note:** You may need to run the script with administrator privileges for some network operations, and ensure your firewall allows outbound ping and port scan traffic.
 
+### Testing Outside Your Network
+
+To test the scanner on external or public networks:
+
+- Change the IP range in `network_scanner_main.py` to target public IPs or remote networks you have permission to scan.
+- Ensure you have legal authorization to scan those networks. Scanning external networks without permission is illegal and unethical.
+- Run the script from a machine with internet access and no firewall or network policy blocking outbound scans.
+
+**Warning:** Always respect privacy and network security laws. Only scan networks you own or have explicit permission to test.
+
 ## Features
 - Pings a range of IP addresses to find active hosts
 - Scans common ports (22, 80, 443, 3389) on each online host
