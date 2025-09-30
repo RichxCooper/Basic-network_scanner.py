@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Network Scanner
 
 This Python script scans a range of IP addresses to check which hosts are online and then scans for open ports on each online host.
@@ -34,3 +35,7 @@ Host 192.168.1.2 is online.
 
 ## License
 MIT
+=======
+# Basic-network_scanner.py
+This Python script scans a range of IP addresses to check which hosts are online and then scans for open ports on each online host.
+>>>>>>> be4e3a52afca0cf0b11925cd080ac300407fbb77
