@@ -1,7 +1,19 @@
-<<<<<<< HEAD
 # Network Scanner
 
-This Python script scans a range of IP addresses to check which hosts are online and then scans for open ports on each online host.
+## Testing
+
+To test the network scanner:
+
+1. Make sure you have Python 3.7 or newer installed.
+2. Open a terminal in this project directory.
+3. (Optional) Edit `network_scanner_main.py` to set the IP range and ports you want to scan.
+4. Run the script:
+  ```powershell
+  C:/Users/1coop/OneDrive/Desktop/Network_scanner.py/.venv/Scripts/python.exe network_scanner_main.py
+  ```
+5. Review the output to see which hosts are online and which ports are open.
+
+**Note:** You may need to run the script with administrator privileges for some network operations, and ensure your firewall allows outbound ping and port scan traffic.
 
 ## Features
 - Pings a range of IP addresses to find active hosts
@@ -35,7 +47,3 @@ Host 192.168.1.2 is online.
 
 ## License
 MIT
-=======
-# Basic-network_scanner.py
-This Python script scans a range of IP addresses to check which hosts are online and then scans for open ports on each online host.
->>>>>>> be4e3a52afca0cf0b11925cd080ac300407fbb77
